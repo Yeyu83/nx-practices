@@ -1,0 +1,5 @@
+<fhios-header></fhios-header>
+<main>
+  <fhios-bpi-list *ngIf="bpi$ | async as bpi" [bpi]="bpi" (itemClicked)="logItem($event)"></fhios-bpi-list>
+</main>
+<fhios-spinner></fhios-spinner>

@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fhios/data": ["libs/data/src/index.ts"],
+      "@fhios/layout": ["libs/layout/src/index.ts"],
+      "@fhios/model": ["libs/model/src/index.ts"],
+      "@fhios/provider": ["libs/provider/src/index.ts"],
+      "@fhios/spinner": ["libs/spinner/src/index.ts"],
+      "@fhios/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

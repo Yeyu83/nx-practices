@@ -1,0 +1,27 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/provider/src",
+  "prefix": "fhios",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/provider"
+      ],
+      "options": {
+        "jestConfig": "libs/provider/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/provider/**/*.ts",
+          "libs/provider/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
