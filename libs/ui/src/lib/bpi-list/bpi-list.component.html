@@ -1,6 +1,0 @@
-<ul>
-  <li *ngFor="let item of bpi | keyvalue" (click)="itemClicked.next(item.value)">
-    <h3>{{ item.key }}</h3>
-    <pre>{{ item.value | json }}</pre>
-  </li>
-</ul>

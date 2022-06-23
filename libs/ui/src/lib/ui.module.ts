@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BpiListComponent } from './bpi-list/bpi-list.component';
+import { CryptosListComponent } from './cryptos-list/cryptos-list.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [BpiListComponent],
-  exports: [BpiListComponent],
+  declarations: [CryptosListComponent],
+  exports: [CryptosListComponent],
 })
 export class UiModule {}

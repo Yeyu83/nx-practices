@@ -1,1 +1,1 @@
-export * from './lib/bitcoin/bip.provider';
+export * from './lib/binance/get-cryptos.provider';

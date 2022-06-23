@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BpiListComponent } from './bpi-list.component';
+import { CryptosListComponent } from './cryptos-list.component';
 
-describe('BpiListComponent', () => {
-  let component: BpiListComponent;
-  let fixture: ComponentFixture<BpiListComponent>;
+describe('CryptosListComponent', () => {
+  let component: CryptosListComponent;
+  let fixture: ComponentFixture<CryptosListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BpiListComponent],
+      declarations: [CryptosListComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(BpiListComponent);
+    fixture = TestBed.createComponent(CryptosListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

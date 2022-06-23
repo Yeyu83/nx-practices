@@ -1,0 +1,5 @@
+<ul *ngIf="cryptos.length">
+  <li *ngFor="let crypto of cryptos" (click)="itemClicked.next(crypto)">
+    <pre>{{ crypto | json }}</pre>
+  </li>
+</ul>

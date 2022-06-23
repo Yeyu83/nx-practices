@@ -14,9 +14,10 @@ import { SpinnerModule } from '@fhios/spinner';
     HttpClientModule,
     UiModule,
     LayoutModule,
-    SpinnerModule.forRoot(),
+    SpinnerModule.forRoot([
+      'https://api2.binance.com/api/v3/ticker/24hr'
+    ]),
   ],
-  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

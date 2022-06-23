@@ -1,17 +1,17 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/shell-ssr-e2e/src",
+  "sourceRoot": "apps/shell-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/shell-ssr-e2e/cypress.json",
-        "devServerTarget": "shell-ssr:serve:development"
+        "cypressConfig": "apps/shell-e2e/cypress.json",
+        "devServerTarget": "shell:serve:development"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "shell-ssr:serve:production"
+          "devServerTarget": "shell:serve:production"
         }
       }
     },
@@ -22,13 +22,13 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/shell-ssr-e2e/**/*.{js,ts}"
+          "apps/shell-e2e/**/*.{js,ts}"
         ]
       }
     }
   },
   "tags": [],
   "implicitDependencies": [
-    "shell-ssr"
+    "shell"
   ]
 }

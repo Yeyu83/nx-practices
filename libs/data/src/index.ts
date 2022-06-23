@@ -1,1 +1,1 @@
-export * from './lib/bitcoin.service';
+export * from './lib/binance.service';

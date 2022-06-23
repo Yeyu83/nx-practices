@@ -6,8 +6,8 @@
     "layout": "libs/layout",
     "model": "libs/model",
     "provider": "libs/provider",
-    "shell-ssr": "apps/shell-ssr",
-    "shell-ssr-e2e": "apps/shell-ssr-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e",
     "spinner": "libs/spinner",
     "ui": "libs/ui"
   }
