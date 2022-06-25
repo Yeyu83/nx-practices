@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "firstApp",
+      "routing": "standart"
+    },
+    {
+      "name": "lastestApp",
+      "routing": "wildcard"
+    }
+  ]
+}

@@ -15,7 +15,6 @@ export class SpinnerInterceptor implements HttpInterceptor {
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
     return next.handle(request).pipe(
       tap(() => {
-        console.log(request.url, this.pollingUrls, this.pollingUrls.includes(request.url))
         if (this.pollingUrls.includes(request.url)) {
           this.spinnerService.isPolling.next(true)
         }

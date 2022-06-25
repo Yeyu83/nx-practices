@@ -1,0 +1,3 @@
+<h2>Cryptos List Page</h2>
+<button [routerLink]="['/home']">Go to Home</button>
+<fhios-cryptos-list *ngIf="cryptos$ | async as cryptos" [cryptos]="cryptos" (itemClicked)="logItem($event)"></fhios-cryptos-list>

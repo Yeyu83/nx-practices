@@ -1,5 +1,5 @@
 <fhios-header></fhios-header>
 <main>
   <fhios-spinner></fhios-spinner>
-  <fhios-cryptos-list *ngIf="cryptos$ | async as cryptos" [cryptos]="cryptos" (itemClicked)="logItem($event)"></fhios-cryptos-list>
+  <router-outlet></router-outlet>
 </main>

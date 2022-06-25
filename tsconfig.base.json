@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@fhios/configuration": ["libs/configuration/src/index.ts"],
+      "@fhios/core": ["libs/core/src/index.ts"],
+      "@fhios/cryptos-list": ["libs/cryptos-list/src/index.ts"],
       "@fhios/data": ["libs/data/src/index.ts"],
+      "@fhios/home": ["libs/home/src/index.ts"],
       "@fhios/layout": ["libs/layout/src/index.ts"],
       "@fhios/model": ["libs/model/src/index.ts"],
       "@fhios/provider": ["libs/provider/src/index.ts"],

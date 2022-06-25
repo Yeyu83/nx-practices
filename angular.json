@@ -2,7 +2,11 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "configuration": "libs/configuration",
+    "core": "libs/core",
+    "cryptos-list": "libs/cryptos-list",
     "data": "libs/data",
+    "home": "libs/home",
     "layout": "libs/layout",
     "model": "libs/model",
     "provider": "libs/provider",
