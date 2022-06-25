@@ -3,7 +3,6 @@ import { Router, Routes } from '@angular/router';
 
 export enum AppName {
   FirstApp = 'firstApp',
-  LastestApp = 'lastestApp'
 }
 
 export interface AppConfiguration {
